@@ -1,0 +1,1754 @@
+
+/* Home*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+.topper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+}   
+.owl-carousel .owl-theme
+{
+    position: relative;
+}
+.sechotel
+{
+    position: relative;
+}
+#seachs
+{
+    color: white;
+    font-size: 20px;
+}
+#seachstwo
+{
+    color: white;
+    font-size: 35px;
+}
+
+.poinst
+{
+    height:10px;
+    width:10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.headingboxsearch
+{
+    color: #111827;
+    font-size: 17px;
+}
+.pboxsearch
+{
+    color: #8e959d;
+    font-size: 12px;
+}
+.se-icons
+{
+    height: 60px;
+    width: 60px;
+    background-color: #4f46e5;
+    border-radius: 70%;
+    display: inline-block;
+}
+.fa-magnifying-glass
+{
+    color: white;
+    font-size: 30px;
+}
+.sec-search
+{
+    position: absolute;
+    top: 95%;
+    left: -90px;
+    width: 100%;
+}
+#secone_img
+{
+    margin-top: 10%;
+}
+#sectwo_img
+{
+    margin-top: 20%;
+}
+.box-white-sec-seraech
+{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 85%;
+    margin-left: 10%;
+    margin-top:50px;
+}
+.ri-user-add-line
+{
+    color: #dcdfe4;
+}
+.owl-next span
+{
+
+    color: #8e959d;
+    font-size:120px;
+    font-weight: lighter;
+    position: absolute;
+    top: 4.5%;
+    right: -10px;
+}
+.owl-prev span
+{
+    display: none;
+}
+body
+{
+    font-family: 'Poppins';  
+}
+p
+{
+    margin: 1px;
+}
+
+.nav-item-main
+{
+    background-color: #f3f4f6;
+    border-radius: 25px;
+    color: #111827;
+    font-weight: bold;
+    font-size: 17px;
+}
+.nav-link
+{
+    color: #374151;
+    font-weight: 500;
+    font-size: 17px;
+}
+.tiitelhotel
+{
+    color: #111827;
+    font-size:70px;
+}
+.tiitelhotels
+{
+    margin-top: -30px !important;
+    color: #111827;
+    font-size:70px;
+}
+.Accompanying
+{
+    color: #6b7280;
+    font-size:17px;
+}
+.btn-serach
+{
+    background-color: #4f46e5;
+    color: white;
+    font-size:17px;
+    border-radius: 50px;
+}
+.tittelcity
+{
+    color: #111827;
+    font-size:20px;
+}
+.detailescity
+{
+    color: #6b7280;
+    font-size:15px; 
+}
+.Highlights
+{
+    color: #111827;
+    font-size:40px;
+    font-weight: 700;
+}
+.popular
+{
+    color: #6b7280;
+    font-size:20px;
+}
+
+.BENNEFITS
+{
+    color:#9ca3af;
+    font-size:14px;
+}
+.Happeningcities
+{
+    color: #111827;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.Advertisingbtn
+{
+    font-weight: bold;
+    background-color: #dbeafe;
+    color: #5974c8;
+    border-radius: 20px;
+    font-size:11px;
+    width: 15%;
+}
+.Exposurebtn
+{
+    font-weight: bold;
+    background-color: #dcfce7;
+    color: #42865b;
+    border-radius: 20px;
+    font-size:11px;
+    width: 15%;
+}
+
+.Securebtn
+{
+    font-weight: bold;
+    background-color: #fee2e2;
+    color:#991b1b; 
+    border-radius: 20px;
+    font-size:11px;
+    width: 15%;
+}
+
+.nav-link {
+    border-radius: 20px !important;
+}
+
+.tittelcost
+{
+    color: #111827;
+    font-size:20px;
+    font-weight: 600;
+}
+.datacost
+{
+    color: #979ba5;
+    font-weight: lighter;
+    font-size:17px;
+}
+.Featuredplaces
+{
+    background-color: #f3f4f6;
+}
+.Featuredtext
+{
+    color: #111827;
+    font-size:36px; 
+    font-weight: bold;
+}
+.Populars
+{
+    color: #737a87;
+    font-size:17px;  
+}
+.Popular
+{
+    color: #6b7280;
+    font-size:20px;  
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #134e4a;
+    border-radius: 20px !important;
+}
+.bg-white-box
+{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cardsec
+{
+    position: relative;
+}
+
+.bg-red
+{
+    background-color: #b91c1c;
+    border-radius: 20px;
+    color: white;
+}
+#hearcard
+{
+    color: white;
+    opacity: 100% !important;
+}
+.bglovecard
+{
+    height: 35px;
+    width: 35px;
+    opacity: 30%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circlefav
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 7px;
+    height:7px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .7;
+    transition: opacity .6s ease;
+    border-radius: 51%;
+}
+.Entire
+{
+    color: #6b7280;
+    font-size: 17px;
+}
+.Lang
+{
+    color: #111827;
+    font-size: 17px;
+}
+.fa-location-dot
+{
+    color: #6b7280;
+    font-size: 17px;
+}
+.Tokyo
+{
+    color: #6b7280;
+    font-size: 17px;
+}
+.numcard
+{
+    color: #111827;
+    font-size: 17px;
+}
+.night
+{
+    color: #6b7280;
+    font-size: 17px;
+}
+.fa-star
+{
+    color: #dc2626;
+}
+.numberscard
+{
+    color: #111827;
+    font-size: 17px;
+}
+.numbretwocard
+{
+    color: #6b7280;
+    font-size: 17px; 
+}
+.btn-showmore
+{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+    color: #374151;
+}
+.tiitelwork
+{
+    color: #111827;
+    font-size: 40px; 
+    font-weight: bold;
+}
+.keepclam
+{
+    color: #8c919c;
+    font-size: 20px; 
+}
+.tittelbox
+{
+    color: #111827;
+    font-size: 23px; 
+}
+.phboxone
+{
+    color: #6b7280;
+    font-size: 17px; 
+}
+.Suggestionsbox
+{
+    background-color: #fff7ed;
+}
+.Suggestions
+{
+    color: #111827;
+    font-weight: bold;
+    font-size: 35px; 
+}
+.Popular
+{
+    color: #6b7280;
+    font-size: 20px;   
+}
+.Join
+{
+    color: #111827;
+    font-size: 40px;
+    font-weight: bold; 
+}
+.Read
+{
+    color: #6b7280;
+    font-size: 18px;   
+}
+.getmoreph
+{
+    color: #374151;
+    font-size: 18px;   
+}
+
+.btn-discount
+{
+    background-color: #deeafa;
+    color: #1e40af;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.btn-magazines
+{
+    background-color: #fee2e2;
+    color:#991b1b; 
+    border-radius: 20px;  
+    font-size: 14px;
+}
+.input-group
+{
+    width: 60%;
+}
+#searchinput
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: 0px;
+
+}
+#searchinputtwo
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.bgcircle
+{
+    height: 30px;
+    width: 30px;
+    background-color: #4f46e5;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-arrow-right
+{
+    color: white;
+    font-size: 19px;
+}
+.joinour
+{
+    background-color: #fff7ed;
+}
+.topjoin
+{
+    color: #111827;
+    font-size: 30px;
+    font-weight: bold;  
+}
+.Ratingbased
+{
+    color: #6b7280;
+    font-size: 19px;
+}
+.box-data
+{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+
+}
+.bgstar
+{
+    background-color: #f3f4f6;
+    border-radius: 15px;
+}
+#star
+{
+    color: #d97706;
+}
+.imgcard
+{
+    border-radius: 50%;
+}
+.author
+{
+    color: #111827;
+    font-size: 16px;
+}
+.Vitnam
+{
+    color: #6b7280;
+    font-size: 14px;  
+}
+.btn-more
+{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+    color: #374151;
+}
+.btn-Becomehost
+{
+    background-color: #4F46E5;
+    border-radius: 20px;
+    color: white;
+}
+.Explorenearby
+{
+    color: #111827;
+    font-size: 35px;  
+}
+.Discovergreat
+{
+    color: #6b7280;
+    font-size: 16px;  
+}
+.boxexplore
+{
+    border: 2px solid #e5e7eb;
+    background-color: white;
+    border-radius: 8px;
+}
+.numexpro
+{
+    background-color: #f3f4f6;
+    border-radius:20px;
+}
+.imgExplore
+{
+    width: 90%;
+}
+.hatext
+{
+    color: #111827;
+    font-size: 16px;  
+}
+.munites
+{
+    color: #6b7280;
+    font-size: 16px;  
+}
+.useussec
+{
+    background-color:#f3f4f6;
+}
+.whyq
+{
+    color: #111827;
+    font-size: 35px;
+    font-weight: bold;    
+}
+.Accompanying
+{
+    color: #6e7482;
+    font-size: 16px; 
+}
+.footerflex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.headingfooter
+{
+    color: #374151;
+    font-size: 16px; 
+}
+.pfooter
+{
+    color: #6b7280;
+    font-size: 16px; 
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  #coua1,#coua2
+  {
+    display: none;
+  }
+
+/* rewies of expreiss */
+.btn-singup
+{
+    background-color: #4F46E5;
+    border-radius: 20px;
+    color: white; 
+}
+#arrow
+{
+    color: #303030;
+}
+.bgbnfthe
+{
+    height: 25px;
+    width: 25px;
+    background-color: #4f46e5;
+    border-radius: 50%;
+    display: inline-block;
+}
+.numbg
+{
+    color: #6b7280;
+    font-size: 15px;    
+}
+.textjappan
+{
+    color: #6b7280;
+    font-size: 20px;   
+}
+.experiences
+{
+    color: #111827;
+    font-size: 40px;   
+}
+.aug
+{
+    color: #6b7280;
+    font-size: 20px;   
+}
+.boxexprenise
+{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+
+.btn-gray
+{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+    color: #374151;
+}
+.btn-bansfge
+{
+   background-color:  #eef2ff;
+   border-radius: 20px;
+   color: #4F46E5;
+}
+.line
+{
+    width: 80px;
+    height: 2px;
+    background-color:  #deeafa;
+}
+.vist
+{
+    color: #111827;
+    font-size: 25px;   
+    font-weight: bold;
+}
+.numexpresine
+{
+    color:#14b8a6;
+    font-size:20px;    
+}
+.personexprsince
+{
+    color: #6b7280;
+    font-size:16px;    
+}
+.datacard
+{
+    color: #9095a0;
+}
+/* expreice review page */
+.sec-search-revies
+{
+    position: absolute;
+    top: 90%;
+    left: 16px;
+    width: 97%; 
+}
+.trangsec,.expericesdescriptionsec,.incluesec,.hostinformationsec,.reviewssec,.locationsec,.thingssec,.cardside
+{
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+.btn-spccitifc
+{
+    background-color: #deeafa;
+    color: #1e40af;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.widthline
+{
+    background-color: #deeafa;
+    width: 100%;
+    height: 1px;
+}
+.pexperices
+{
+    color: #4b5563;
+    font-size: 14px;
+}
+.textinclued
+{
+    color: #9095a0;
+    font-size: 15px;
+}
+.btn-profile
+{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+    color: #374151;
+}
+.texthost
+{
+    color:  #4b5563;
+    font-size: 15px;
+}
+#stargold
+{
+    color: gold;
+    font-size: 14px;
+}
+.tiitelcardreviwes
+{
+    color: #374151;
+    font-size: 15px;
+}
+.mytext
+{
+    color: #9095a0;
+    font-size: 15px;   
+}
+.datacardreviwes
+{
+    color: #4b5563;
+    font-size: 15px;
+}
+.plocation
+{
+    color: #9095a0;
+    font-size: 15px;   
+}
+.headthing
+{
+    color: #374151;
+    font-size: 19px;
+}
+.pheading
+{
+    color: #9095a0;
+    font-size: 15px;  
+}
+.Jointextnewsletter
+{
+    color: #111827;
+    font-size: 35px;
+}
+.boxjosin
+{
+    background-color: #f9fafb;
+    border-radius: 50px;
+}
+.btn-reviews
+{
+    background-color: #4F46E5;
+    border-radius: 20px;
+    width: 100%;
+    color: white; 
+    text-align: center;
+}
+.h-cards
+{
+    color: #9095a0;
+    font-size: 12px; 
+}
+.p-cards
+{
+    color: #111827;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box-augest
+{
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+.boxtoog
+{
+    border-top: 2px solid  #e5e7eb;
+    border-bottom: 2px solid #e5e7eb ;
+}
+/* payments page */
+
+.boxconfirm
+{
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+
+
+.boxtrip
+{
+    border-radius: 25px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+.boxonecard
+{
+    border-right: 2px solid #e5e7eb;   
+}
+
+.btn-paypall
+{
+    background-color: #1f2937;
+    color: white;
+    border-radius: 50px;
+    height: 6vh;
+    margin-top: 10px;
+}
+.boxhoterrom
+{
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+.textboxrom
+{
+    color: #6b7280;
+    font-size: 12px;
+}
+.textloungrom
+{
+    color: #111827;
+    font-size: 15px;
+    font-weight: bold;
+}
+.textnumcard
+{
+    color: #111827;
+    font-size: 12px;   
+}
+.formnum
+{
+    width: 70%;
+    border-radius: 25px;
+}
+.formexpiration
+{
+    width: 100%;
+    border-radius: 25px; 
+}
+.formtextarea
+{
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.confirmtext
+{
+    color: #111827; 
+    font-size: 25px;
+    font-weight: bold;
+}
+.paywithtext
+{
+    color: #111827; 
+    font-size: 25px;
+}
+.lableforms
+{
+    color: #444d5c;
+    font-size: 14px;
+}
+.writefew
+{
+    color: #6b7280;
+}
+.btn-confirmandpay
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+}
+/* user acount page */
+.user-acount
+{
+    background-color: #f3f4f6;
+    height: 25vh;
+    margin-bottom: 15%;
+    position: relative;
+    text-align: center;
+}
+.housesections
+{
+    background-color: #f9fafb;
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+}
+.boxabsouteacount
+{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 100%;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circlesemaincuser
+{
+    height:50px;
+    width: 50px;
+    background-color: #eef2ff;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.circlesecuser
+{
+    height: 50px;
+    width: 50px;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-paperclip
+{
+    color: #6d66ea;
+    font-size: 20px;
+}
+.fa-user-plus,.fa-lock,.fa-heart,.fa-message
+{
+    color: #737a87;
+    font-size: 20px;
+}
+.itemstext
+{
+    color: #6d66ea;
+    font-size: 13px;
+}
+.sectext
+{
+    color: #737a87;
+    font-size: 13px;
+}
+.imgcarsouls
+{
+    height: 35vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+.ri-heart-line
+{
+    color: white;
+    font-size: 23px;
+    opacity: 100% !important;
+}
+.ri-arrow-right-line
+{
+    color: white;
+    font-size: 23px;
+}
+/* BLOG page */
+.Travel
+{
+    color: #1f2937;
+    font-size: 50px;  
+}
+.Article
+{
+    color: #6b7280;
+    font-size: 20px;
+}
+.lifechanging
+{
+    color: #121827;
+    font-size: 28px;
+    font-weight: bold;
+}
+.uixcase
+{
+    color: #737a87;
+    font-size: 13px;
+}
+.JoinhDavide
+{
+    color: #3f4652;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Mayhistory
+{
+    color: #737a87;
+    font-size: 13px;
+}
+.articleimg
+{
+    width: 3%;
+}
+.imgwomansa
+{
+    width: 6%;
+}
+.tittelblo
+{
+    color: #454d59;
+    font-size: 20px;
+}
+.datablo
+{
+    color: #737a87;
+    font-size: 13px; 
+}
+.ads
+{
+    background-color: #fdc4c4;
+    border-radius:30px;
+    width: 95%;
+    height: 20vh;
+}
+.txtads
+{
+    color: white;
+    font-size: 30px; 
+    text-shadow: 10px 10px #de9e9e;
+}
+.numheadblog
+{
+    background-color: #6366f1;
+    border-radius: 5px;
+    border: 2px solid #6366f1;
+}
+.numsecblog
+{
+    background-color: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+}
+.btn-morebolgs
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+}
+.sec-desvoersblogs
+{
+    background-color: #f9fafb;
+    border-radius: 3px;
+}
+.btn-discovers
+{
+    background-color: white;
+    color: #838995;
+    border-radius: 9px;  
+    border: 1px solid #e5e7eb;
+}
+.discovertext
+{
+    color: #111827;
+    font-size: 22px; 
+}
+.viewtext
+{
+    color: #3730a3;
+    font-size: 20px;    
+}
+.liging
+{  
+    color: #1f2937;
+    font-size: 22px;  
+}
+.tsblos
+{
+    color: #6b7280;
+    font-size: 19px;  
+}
+/* BLOG DETAILS */
+.seconebloges
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.Joinhp
+{
+    color: #424b56;
+    font-size: 13px;
+}
+.minroad
+{
+    color: #868d96;
+    font-size: 13px;
+}
+.Julio
+{
+    color: #111827;
+    font-size: 45px;
+}
+.online
+{
+    color: #737a87;
+    font-size: 18px;
+}
+.cirlceblog
+{
+    height: 30px;
+    width: 30px;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-youtube
+{
+    color: #737a87;
+    font-size: 18px; 
+}
+.bgseconblogs
+{
+    background-color: #d9d8d8;
+    width: 100%;
+    margin-top:5%;
+}
+.imgbgcolor
+{
+    position: absolute;
+    top: -14%; 
+}
+.iconsgroupbolges
+{
+    margin-bottom: 150%;
+}
+.onlinemagazine
+{
+    color: #545b68;
+    font-size: 18px; 
+}
+.imghand
+{
+    width: 100%;
+    margin-left:-5%;
+}
+.btn-whiteblogs{
+    background-color: #f9fafb;
+    border-radius: 17px;
+}
+.enden
+{
+    color: #1f2937;
+    font-size: 28px;
+}
+.linkread
+{
+    color:#615cb1;
+    text-decoration: underline;
+}
+.Responses
+{
+    color: #1f2937;
+    font-size: 20px;
+}
+.btn-Post
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+}
+.detailesblogs
+{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.Joinh
+{
+    color: #1f2937;
+    font-size: 14px;
+}
+.Mays
+{
+    color: #8b8f99;
+    font-size: 14px;
+}
+.techgiant
+{
+    color: #8b8f99;
+    font-size: 14px;
+}
+.imgblogsaq
+{
+    width: 150%;
+}
+.seconeblogesfoter
+{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+.Related
+{
+    color: #1f2937;
+    font-size: 30px;
+}
+.UXDesign
+{
+    color: #2b3442;
+    font-size: 20px;
+}
+.stopingteach
+{
+    color: #8b8f99;
+    font-size: 16px;
+}
+
+/* intropages */
+.Aboutus
+{
+    color: #1f2937;
+    font-size: 60px;
+}
+.impartialtext
+{
+    color: #8b8f99;
+    font-size: 16px;
+}
+.tittelcard
+{
+    color: #202a38;
+    font-size: 22px;
+}
+.detailescard
+{
+    color: #8b8f99;
+    font-size: 16px;
+}
+.founder
+{
+    color: #202a38;
+    font-size: 35px; 
+}
+.independenttext
+{
+    color: #8b8f99;
+    font-size: 16px;
+}
+.box-inreoducty
+{
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    color: #374151; 
+}
+.numbersboxintroducty
+{
+    color: #202a38;
+    font-size: 35px; 
+    font-weight: bold;
+}
+.detailesboxintroducty
+{
+    color: #8b8f99;
+    font-size: 12px;
+}
+/* login page */
+
+.sec-login
+{
+    background-color:#eef2ff;
+    height: 25vh;
+    position: relative;
+    text-align: center;
+}
+.postion-sec-login
+{
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 60%;
+    border-radius: 15px;
+}
+.Login
+{
+    color:#111827;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.welcome
+{
+    color:#a9acb5;
+    font-size: 15px;
+}
+.ri-facebook-box-line
+{
+    color: #3b5998;
+    font-size:30px;
+}
+.ri-google-fill
+{
+    color: #ed7f76;
+    font-size:30px;
+}
+.ri-twitter-fill
+{
+    color: #000;
+    font-size:30px;
+}
+
+.bg-icon-sec-login
+{
+    background-color: #f3f4f6;
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+.OR
+{
+    color: #374151;
+    font-size:25px;  
+}
+.labletextlogin
+{
+    color: #90959e;
+}
+.inputlableslogin
+{
+    border-radius: 50px;
+}
+.linese
+{
+    width: 200px;
+    height: 1px ;
+    background-color: #e5e7eb;
+}
+.btn-continute
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+    width: 60%;
+}
+.inputlableslogin
+{
+    width: 60%;
+}
+.newuser
+{
+    color: #374151;
+    font-size:15px; 
+}
+.creatcaount
+{
+    color: #3730a3;
+    font-size:15px; 
+}
+/* sing up page */
+
+.sec-singup
+{
+    background-color:#eef2ff;
+    height: 25vh;
+    position: relative;
+    text-align: center;
+}
+.postion-sec-singup
+{
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 5px 5px 8px 5px;
+    width: 60%;
+    border-radius: 15px;
+}
+.Sing
+{
+    color:#111827;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.welcomeSing
+{
+    color:#a9acb5;
+    font-size: 15px;
+}
+.ri-facebook-box-line
+{
+    color: #3b5998;
+    font-size:30px;
+}
+.ri-google-fill
+{
+    color: #ed7f76;
+    font-size:30px;
+}
+.ri-twitter-fill
+{
+    color: #000;
+    font-size:30px;
+}
+
+.bg-icon-sec-sing
+{
+    background-color: #f3f4f6;
+    width: 60%;
+    border-radius: 20px;
+}
+.ORsing
+{
+    color: #374151;
+    font-size:25px;  
+}
+.labletextsingup
+{
+    color: #90959e;
+}
+.inputlablessing
+{
+    border-radius: 50px;
+}
+.linesesing
+{
+    width: 200px;
+    height: 1px ;
+    background-color: #e5e7eb;
+}
+.btn-continute-sing
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+    width: 60%;
+}
+.inputlablessing
+{
+    width: 60%;
+}
+.newuser
+{
+    color: #374151;
+    font-size:15px; 
+}
+.creatcaountsing
+{
+    color: #3730a3;
+    font-size:15px; 
+}
+/* forget password */
+.sec-singup
+{
+    background-color:#eef2ff;
+    height: 25vh;
+    position: relative;
+    text-align: center;
+}
+.postion-sec-Forget
+{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 5px 5px 8px 5px;
+    width: 60%;
+    border-radius: 15px;
+}
+.Forgeth
+{
+    color:#111827;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.sendforget
+{
+    color:#a9acb5;
+    font-size: 15px;
+}
+.labletextforgt
+{
+    color: #90959e;
+
+}
+.inputlableforget
+{
+    width: 60%;
+    border-radius: 50px;
+}
+.btn-continute-forget
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+    width: 60%;
+}
+.newuserforget
+{
+    color: #374151;
+    font-size:15px; 
+}
+.creatcaountforget
+{
+    color: #3730a3;
+    font-size:15px; 
+}
+/* contactus page */
+#iconfacebook,#icontwiter,#iconinstagram,#iconyoutube
+{
+    color: #4b5563;
+    font-size:25px;  
+}
+.contactustext
+{
+    color: #111827;
+    font-size:60px;  
+}
+.tittelcontact
+{
+    color: #1f2937;
+    font-size:25px;  
+}
+.datacontact
+{
+    color: #6c7381;
+    font-size:20px;  
+}
+.imgcontact
+{
+    width: 8%;
+}
+.btn-sendmessage
+{
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    #boxnight,#boxten,#box-four,#box-five,#boxexplorethree,#boxexplorefour,#boxexplorefour,#boxexplorefivem,.cardside,.boxhoterrom
+
+    {
+        margin-top: 10px;
+    }
+    .imgsec-one-2
+    {
+        margin-left: 10%;
+    }
+    .btn-serach
+    {
+        margin-bottom: 10px;
+    }
+    .Resources,.Community
+    {
+        padding-top: 50px;
+    }
+    .detilesdatacard
+    {
+        padding: 10px;
+    }
+    .boxabsouteacount {
+        width: 80%;
+        top: 109%;
+        border-radius: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .housesections {
+        border-radius: 20px;
+        margin-top: 50%;
+        border: 2px solid #e5e7eb;
+    }
+    .sec-search,.sec-search-revies,.boxsharingsa
+    {
+        display: none;
+    }   
+    .footerlogin
+    {
+        margin-top: 150%;
+    }
+
+    .textsoc
+    {
+        margin-left: 0px;
+    }
+    .textsocil
+    {
+        color: #374151;
+        margin-right: 10px;
+    }
+    .box-inreoducty
+    {
+        margin-top: 10px;
+    }
+ }
+
+ 
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #boxnight,#boxten,#box-four,#box-five,#boxexplorethree,#boxexplorefour,#boxexplorefour,#boxexplorefive,.cardside,.boxhoterrom
+    {
+        margin-top: 10px;
+    }
+
+    .btn-serach
+    {
+        margin-bottom: 10px;
+    }
+    
+    .Resources,.Community
+    {
+        padding-top: 50px;
+    }
+    .boxabsouteacount {
+        width: 90%;
+        top: 109%;
+        border-radius: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .housesections {
+        border-radius: 20px;
+        margin-top: 30%;
+        border: 2px solid #e5e7eb;
+    }
+    .sec-search,.sec-search-revies,.boxsharingsa
+    {
+        display: none;
+    }
+    .footerlogin
+    {
+        margin-top: 80%;
+    }
+    .textsoc
+    {
+        margin-left: 0px;
+    }
+    .textsocil
+    {
+        color: #374151;
+        margin-right: 10px;
+    }
+    .box-inreoducty
+    {
+        margin-top: 10px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    #boxnight,#boxten,#box-four,#box-five,#boxexplorethree,#boxexplorefour,#boxexplorefour,#boxexplorefive,.cardside,.boxhoterrom
+    {
+        margin-top: 10px;
+    }
+    .imgsec-one-2
+    {
+        margin-left:80%;
+    }
+    .btn-serach
+    {
+        margin-bottom: 10px;
+    }
+
+    .Resources,.Community
+    {
+        padding-top: 0px;
+    }
+
+    .boxabsouteacount {
+        width: 90%;
+        top: 109%;
+        border-radius: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .housesections {
+        border-radius: 20px;
+        margin-top: 5%;
+        border: 2px solid #e5e7eb;
+    }
+    .sec-search,.sec-search-revies,.boxsharingsa
+    {
+        display: none;
+    }
+    .textsoc
+    {
+        margin-left: 50px;
+    }
+    .box-inreoducty
+    {
+        margin-top: 0px;
+    }
+ 
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #boxnight,#boxten,#box-four,#box-five,#boxexplorethree,#boxexplorefour,#boxexplorefour,#boxexplorefive,.cardside,.boxhoterrom
+    {
+        margin-top: 0px;
+    }
+    .imgsec-one-2
+    {
+        margin-left: 0%;
+    }
+    .btn-serach
+    {
+        margin-bottom: 10px;
+    }
+    .sec-search,.sec-search-revies,.boxsharingsa
+    {
+        display: block;
+    }
+    .box-inreoducty
+    {
+        margin-top: 0px;
+    }
+
+  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

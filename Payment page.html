@@ -1,0 +1,254 @@
+<!doctype html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid ms-3" src="./img/home/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item-main">
+              <a class="nav-link active " aria-current="page" href="#">
+                <div class="text-center ps-3 pe-3">Home</div>
+              </a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#">life style</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#">templete</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#">archive page</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#">other page</a>
+            </li>
+          </ul>
+          <form class="d-flex me-5">
+            <span><img class="me-3" src="./img/Payment page/sun.png" alt=""></span>
+            <span><img class="me-3" src="./img/Payment page/navction.png" alt=""></span>
+            <span><img class="me-3" src="./img/Payment page/man.png" alt=""></span>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- confirm and payment box -->
+    <div class="container ">
+      <div class="row me-3 ms-3 mt-5">
+          <div class="col-sm-12 col-md-12 col-lg-7">
+            <div class="boxconfirm">
+                  <div class="p-3">
+                      <p class="confirmtext pt-3 pb-3">confirm and payment</p>
+                      <div class="widthline mt-3"></div>
+                      <p class="paywithtext mt-4 mb-3">your trip</p>
+
+                      <div class="boxtrip">
+                        <div class="d-flex">
+                            <div class="boxonecard w-50">
+                              <div class="p-3">
+                                <div class="d-flex  justify-content-between">
+                                  <div class="mt-2 ms-2">
+                                    <p class="h-cards">Date</p>
+                                    <p class="p-cards">Aug 12-16 ,2021</p>
+                                  </div> 
+                                  <div><img class="pt-3" src="./img/Payment page/pincle.png" alt=""></div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="w-50">
+                              <div class="p-3">
+                                <div class="d-flex  justify-content-between">
+                                  <div class="mt-2 ms-2">
+                                    <p class="h-cards">Guest</p>
+                                    <p class="p-cards">3 Guest</p>
+                                  </div> 
+                                  <div><img class="pt-3" src="./img/Payment page/pincle.png" alt=""></div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>                      
+                      <p class="paywithtext mt-4 mb-3">pay with</p>
+                      <div class="d-flex">
+                        <button type="button" class="btn btn-paypall">
+                          <span class=" text-center">paypall</span>
+                      </button>
+                      <span class="pt-3 ms-3">creadit card</span>
+                      <span class="pt-1 ms-3 "><img src="./img/Payment page/visa.png" alt=""></span>
+                      </div>
+                      <div class="line mt-3"></div>
+                            
+                      <div class="mt-3 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label lableforms">Card number</label>
+                        <input type="number" class="form-control formnum" id="exampleFormControlInput1" placeholder="111 112 222 999">
+                      </div>
+
+                      <div class="mt-3">
+                        <label for="exampleFormControlInput1" class="form-label lableforms">Card holder</label>
+                        <input type="text" class="form-control formnum" id="exampleFormControlInput1" placeholder="JOHN DOE">
+                      </div>
+
+                      <div class="d-flex">
+                          <div class="mt-3">
+                            <label for="exampleFormControlInput1" class="form-label lableforms">expiration date</label>
+                            <input type="datetime" class="form-control formexpiration " id="exampleFormControlInput1" placeholder="MM /YY">
+                          </div>
+                        <div class="me-1 mt-3">
+                          <label for="exampleFormControlInput1" class="form-label lableforms">cvc </label>
+                          <input type="number" class="form-control formexpiration ms-2" id="exampleFormControlInput1">
+                      </div>
+                  </div>
+                  
+                  <div class="mt-3 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label lableforms">message from author</label>
+                    <textarea class="form-control formtextarea" id="exampleFormControlTextarea1" placeholder="..." rows="3"></textarea>
+                  </div>
+                  <p class="writefew">write a few sentences about yourself</p>
+                  <button type="button" class="btn btn-confirmandpay mt-3 mb-5">
+                    <span class="text-center ms-3 me-3 ">confirm and pay</span>
+                </button>
+
+            </div>
+          </div>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-5">
+          <div class="boxhoterrom">
+              <div class="p-3">
+                  <div class="d-flex">
+                    <div><img  class="pt-4" src="./img/Payment page/cardtwo.png" alt=""></div>
+                    <div class="ms-3">
+                        <p class="textboxrom pt-3">hotel room in tokyo , jappan</p>
+                        <p class="textloungrom pt-3">the loung & bar </p>
+                        <p class="textboxrom pt-3">1 guirong 1 phong lam</p>
+                        <div class="line mt-2 mb-2"></div>
+                        <span class="pt-3"><i class="fa-solid fa-star ps-2 pe-2" id="starred"></i></span>
+                        <span class="textnumcard pt-3">4.9</span>
+                        <spa class="textboxrom pt-3">(122)</span>
+                    </div>
+                  </div>
+                  <p class="vist mt-2 mb-2">price deatail</p>
+                  <div class="d-flex justify-content-between mb-3">
+                    <div><p>$311* 3 night </p></div>
+                    <div><p>$554</p></div>
+                  </div>
+                  <div class="d-flex justify-content-between ">
+                    <div><p> service charge </p></div>
+                    <div><p>$0</p></div>
+                  </div>
+                  <div class="widthline mt-3"></div>
+                  <div class="d-flex justify-content-between mt-4">
+                    <div><p>Total</p></div>
+                    <div><p>$554</p></div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+        <!-- footer -->
+         <div class="footer">
+          <div class="ms-5 me-5 pt-5">
+              <div class="row">
+              
+                <div class="col">
+                  <div class=" pt-3">
+                    <img  src="./img/Payment page/logo.png" alt="">
+                  </div>
+                  <div class=" pt-3">
+                    <span><img src="./img/Payment page/facebook.png" alt=""></span>
+                    <span>Facebook</span>
+                  </div>
+            
+                  <div class=" pt-3">
+                    <span><img src="./img/Payment page/twiter.png" alt=""></span>
+                    <span>
+                      twiter
+                  </span>
+                  </div>
+
+
+                  <div class=" pt-3">
+                    <span><img src="./img/Payment page/youtubes.png" alt=""></span>
+                    <span>
+                      youtube
+                  </span>
+                </div>
+
+
+                <div class=" pt-3">
+                  <span><img src="./img/Payment page/instgram.png" alt=""></span>
+                  <span>
+                    Instagram
+                </span>
+              </div>
+
+              </div>
+
+              <div class="col">
+                    <p class="headingfooter"> Getting started </p>
+                    <p class="pfooter pt-3">Installation</p>
+                    <p class="pfooter pt-3">Release Notes</p>
+                    <p class="pfooter pt-3"> Upgrade Guide</p>
+                    <p class="pfooter pt-3">Browser Support</p>
+                    <p class="pfooter pt-3">   Editor Support</p>
+                  </div>
+
+                  <div class="col">
+                    <p class="headingfooter">Explore</p>
+                    <p class="pfooter pt-3">Design features</p>
+                    <p class="pfooter pt-3">Prototyping</p>
+                    <p class="pfooter pt-3">Design systems</p>
+                    <p class="pfooter pt-3">Pricing</p>
+                    <p class="pfooter pt-3">Security</p>
+                  </div>
+
+                  <div class="col Resources">
+                    <p class="headingfooter"> Resources </p>
+                    <p class="pfooter pt-3">Best practices</p>
+                    <p class="pfooter pt-3">Support</p>
+                    <p class="pfooter pt-3">Developers</p>
+                    <p class="pfooter pt-3">Learn design</p>
+                    <p class="pfooter pt-3">Releases</p>
+                  </div>
+
+                  <div class="col Community">
+                    <p class="headingfooter"> Community </p>
+                    <p class="pfooter pt-3">Discussion Forums</p>
+                    <p class="pfooter pt-3">Code of Conduct</p>
+                    <p class="pfooter pt-3">Community Resources</p>
+                    <p class="pfooter pt-3">Contributing</p>
+                    <p class="pfooter pt-3">Concurrent Mode</p>
+                  </div>
+
+              
+              </div>
+          </div>
+         </div>
+
+  </body>
+</html>
